@@ -28,3 +28,40 @@ Através desse BOT é possível enviar mensagens automaticamente para qualquer c
     ```jsx
     npm install puppeteer
     ```
+    
+
+# Configurando o BOT
+
+---
+
+- Nome do usuário receptor
+    
+    Na linha ****21**** do arquivo, você irá encontrar o seguinte trecho de código:
+    
+    ```jsx
+    const contactName = "";
+    ```
+    
+
+Aqui você terá que adicionar o nome do contato salvo no celular.
+
+```jsx
+const contactName = "Castpy";
+```
+
+- Configurando mensagem
+    
+    Na linha ****34**** do arquivo, você irá encontrar o seguinte trecho de código:
+    
+    ```jsx
+    const mensage = "Mensagem enviada via BOT e criado com NODE.JS";
+    ```
+    
+    Você irá adicionar sua mensagem nessa constante ou se preferir e souber trabalhar com listas, faça uma! 😉
+    
+
+# ❗Atenção❗
+
+---
+
+Alguns erros que podem acontecer é por conta das classes CSS, constantemente alteradas no Web Whastapp. Se você souber inspecionar o navegador, fique à vontade para alterar as linhas ****16**** e ******23!******
