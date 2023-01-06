@@ -18,7 +18,7 @@ const puppeteer = require("puppeteer");
         await delay(5000);
 
         // Nome do contato que receberá a mensagem
-        const contactName = "Jonathan Laco";
+        const contactName = "";
         await page.click(`span[title='${contactName}']`)
         await page.waitForSelector(".zoWT4");
 
@@ -31,7 +31,7 @@ const puppeteer = require("puppeteer");
 
         for (var i = 0; i < amountOfMessenges; i++){
             await page.evaluate(() => {
-                const mensage = "Tu é gay? kkkkkkkkk";
+                const mensage = "Mensagem enviada via BOT e criado com NODE.JS";
                 document.execCommand("insertText", false, mensage);
             });
             await page.click("span[data-testid='send']");
