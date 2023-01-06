@@ -17,7 +17,7 @@ Através desse BOT é possível enviar mensagens automaticamente para qualquer c
 
 ---
 
-- Iniciando o node
+- Iniciando o **projeto**
     
     ```jsx
     npm init
@@ -27,6 +27,12 @@ Através desse BOT é possível enviar mensagens automaticamente para qualquer c
     
     ```jsx
     npm install puppeteer
+    ```
+    
+- Iniciando o **BOT**
+    
+    ```jsx
+    node index.js
     ```
     
 
@@ -43,11 +49,11 @@ Através desse BOT é possível enviar mensagens automaticamente para qualquer c
     ```
     
 
-Aqui você terá que adicionar o nome do contato salvo no celular.
+    Aqui você terá que adicionar o nome do contato salvo no celular.
 
-```jsx
-const contactName = "Castpy";
-```
+    ```jsx
+    const contactName = "Castpy";
+    ```
 
 - Configurando mensagem
     
